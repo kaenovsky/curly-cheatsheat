@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Receta2">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="352dp"
+        android:layout_height="391dp"
+        android:layout_marginTop="284dp"
+        android:text="- Mezcla la banana troceada con el huevo hasta obtener un puré suave. No es necesario triturar por completo la fruta, ya que si las panquecas de avena y banana quedan con pedazos estarán más buenas.
+
+- Añade el resto de ingredientes, es decir, la avena molida, la leche, la canela y la miel y mezcla hasta conseguir una masa homogénea. Puedes hacer tu propia harina de avena con esta sencilla receta. Así mismo, para potenciar el sabor de los panqueques de avena y banana, te aconsejamos usar leche de avena.
+
+- Con la masa ya lista, prepara una sartén con un poco de aceite y cocina a fuego medio-bajo los pancakes de uno en uno. Para ello, vierte pequeñas porciones de masa.
+
+- Cuando empiezan a salir burbujas por la parte de arriba del panqueque, es el momento de darle la vuelta. Mantén la sartén con la llama en el mínimo para que no se quemen y se cocinen correctamente. Repite la operación hasta terminar con toda la masa.
+
+- Las panquecas de avena y banana son perfectas para el desayuno, aunque si prefieres también las puedes comer para la hora de la cena. Y si quieres otras recetas saludables o para deportistas, también puedes echar un vistazo a las tortitas de avena y manzana, ¡deliciosas!"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.428"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/panqueques"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-7dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

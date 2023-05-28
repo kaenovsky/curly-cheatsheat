@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Receta3">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@+id/textView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/tequenos" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="341dp"
+        android:layout_height="410dp"
+        android:layout_marginTop="268dp"
+        android:text="- Salsa tártara: Picamos uno o dos pepinillos y una cebolla bien picadita. Mezclar todo con mayonesa. Agregar perejil, jugo de limón y mostaza. Mezclar bien. Mayonesa de ajo y cilantro: Mayonesa junto a 2 dientes de ajo y cilantro. Agregar sal y licuar. - Salsa teriyaki: salsa de soja,  vinagre, azúcar negra, medio diente de ajo picado y un poco de jengibre rallado. 1 cda. de maicena, un chorrito de jugo de limón y otro de aceite.  odo al fuego hasta que actúe la maicena. Una vez que cambia la consistencia ya está lista. - Salsa de chimichurri: En un frasco poner perejil picado, orégano y ajo picado. Agregar jugo de limón con pimentón y ají molido. Salpimentar y agregar aceto con aceite de oliva. Agitamo fuerte y listo. - Salsa barbacoa: Mantequilla, ajo y cebolla en un bol. Cocinar 2-3 minutos en microondas. Agrega salsa de tomate, vinagre, azúcar morena, paprika, sal y pimienta. Revuelve bien. Microondas por 7 minutos. Revolver y procesar si es necesario."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
