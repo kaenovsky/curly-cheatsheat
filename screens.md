@@ -8,4 +8,4 @@ Screenshot of running apps:
 
 ![](./run_tasas.png)
 
-![](./run_phcalc)
+![](./run_phcalc.png)
