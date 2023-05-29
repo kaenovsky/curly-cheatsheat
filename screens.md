@@ -9,3 +9,5 @@ Screenshot of running apps:
 ![](./run_tasas.png)
 
 ![](./run_phcalc.png)
+
+![](./run_shop.png)
