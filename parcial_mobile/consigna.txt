@@ -1,0 +1,50 @@
+
+---------- Forwarded message ---------
+De: Alejandro Peña <al.pena@bue.edu.ar>
+Date: lun, 29 de may. de 2023 7:05 p. m.
+Subject: Parcial Moviles
+To: martinkaen@gmail.com <martinkaen@gmail.com>
+
+
+A continuación se presentan una serie de requerimientos los cuales deben
+ser desarrollados en aplicaciones móviles.
+
+Se deberá entregar el o los archivos .java correspondientes junto con los
+activity_*.xml y adjuntar una captura de pantalla.
+
+1)Crear una aplicación que calcule el Impuesto al Valor Agregado y los IIBB
+(Ingresos Brutos 3%) de un determinado monto. El usuario deberá ingresar el
+monto del cual quiere calcular los impuestos.
+
+Deberá mostrar por pantalla el valor con los impuestos incluídos. En caso
+de superar los $100.000,00 deberá advertir mediante un mensaje PopUp dicha
+situación al usuario.
+
+2)Nos solicitan desarrollar un login el cual solitiará los siguientes
+datos:
+
+- Nombre de usuario
+- PIN (numérico)
+- Contraseña
+
+Asi mimso, dberá tener un radiobuttom para seleccionar si es usuario
+Administrador o No.
+
+Si la clave es incorrecta mostrará un mensaje en el mismo Activity, en caso
+de ser correcto, nos direccionará a un segundo activity el cual nos
+mostrará que tipo de usuario es (Admin o no)
+
+3)Crear una aplicación que permita calcular si una sustancia es ácida,
+neutra o básica. Recordemos que el pH es va del 0 al 14, siendo 0 a 6
+ácido, 7 neutro y 8 a 14 básico.
+Deberá guardar el dato de pH en una SharedPreferences para pode recuperar
+el último valor analizado al abrir nuevamente la apliación.
+
+4)Nos solicitan crear un programa que nos permita convertir unidades de
+volúmen, las mismas son:
+
+Decámetro cúbico dam3 1 000 m3
+Metro cúbico m3 1 m3
+Decímetro cúbico dm3 0.001 m3
+
+El dato de entrada siempre será en m3.
