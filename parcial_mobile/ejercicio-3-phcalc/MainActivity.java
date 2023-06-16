@@ -44,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
             res = "La sustancia es ácida";
         } else if (num == 7) {
             res = "La sustancia es neutra";
-        } else if (num > 7) {
+        } else {
             res = "La sustancia es básica";
         }
 
